@@ -37,7 +37,7 @@ function App() {
       <header className="header">
         <h1>Todos</h1>
         <form onSubmit={createTodo}>
-          <input className="new-todo" placeholder=" let's take on the day" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
+          <input className="new-todo" placeholder="let's take on the day" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
         </form>
       </header>
       <section className="main" style={{ display: "block" }}>
