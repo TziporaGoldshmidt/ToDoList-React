@@ -41,7 +41,7 @@ function App() {
         </form>
       </header>
       <section className="main" style={{ display: "block" }}>
-        <ul className="todo-list">
+        <ul className="todos">
           {Array.isArray(todos) &&
             todos.map(todo => {
               return (
